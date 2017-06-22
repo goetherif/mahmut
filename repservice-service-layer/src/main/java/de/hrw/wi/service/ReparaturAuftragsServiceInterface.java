@@ -21,9 +21,10 @@ public interface ReparaturAuftragsServiceInterface {
      * 
      * @return Eine Menge mit allen Aufträgen in der Datenbank.
      */
-    public Set<ReparaturAuftrag> getAllAuftraege();
+    Set<ReparaturAuftrag> getAllAuftraege();
 
     /**
+     * @param nr
      * Hole einen persistent in der Datenbank gespeicherten Auftrag über seine Nummer.
      * 
      * 
