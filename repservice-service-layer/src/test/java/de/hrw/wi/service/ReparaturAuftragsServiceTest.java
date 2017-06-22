@@ -88,6 +88,7 @@ public class ReparaturAuftragsServiceTest {
 //         assertFalse(auftrag.istGeschlossen());
 //         assertTrue(auftrag.istOffen());
 //         try {
+        //mamut
 //         repAuftragsService.abrechnen(auftrag);
 //         } catch (SQLException e) {
 //         e.printStackTrace();
