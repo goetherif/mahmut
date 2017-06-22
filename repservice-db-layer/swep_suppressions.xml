@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+"-//Puppy Crawl//DTD Suppressions 1.1//EN"
+"http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+<suppressions>
+	<suppress checks=".*"
+		files="[\\/]databaseSetup[\\/]InitialDatabaseSetup\.java" />
+	<suppress checks=".*"
+		files="[\\/]databasesetup[\\/]InitialDatabaseSetup\.java" />
+	<suppress checks=".*"
+		files="[\\/]persistence[\\/]DatabaseReadInterface\.java" />
+	<suppress checks=".*"
+		files="[\\/]persistence[\\/]DatabaseWriteInterface\.java" />
+	<suppress checks=".*"
+		files="[\\/]persistence[\\/]PersistenceException\.java" />
+	<suppress checks=".*" files="[\\/]persistence[\\/]RealDatabase\.java" />
+	<suppress checks=".*" files="[\\/]persistence[\\/]DatabaseImpl\.java" />
+	<suppress checks=".*"
+		files="[\\/]persistence[\\/]dto[\\/]AuftragDto\.java" />
+	<suppress checks=".*"
+		files="[\\/]persistence[\\/]dbunit[\\/]DBUnitExporter\.java" />
+	<suppress checks=".*"
+		files="[\\/]service[\\/]dbunit[\\/]DbUnitExporter\.java" />
+	<suppress checks="Javadoc"
+		files="[\\/]persistence[\\/]DatabaseReadInterfaceTest\.java" />
+	<suppress checks="Javadoc"
+		files="[\\/]persistence[\\/]DatabaseWriteInterfaceTest\.java" />
+	<suppress checks="String"
+		files="[\\/]persistence[\\/]DatabaseReadInterfaceTest\.java" />
+	<suppress checks="String"
+		files="[\\/]persistence[\\/]DatabaseWriteInterfaceTest\.java" />
+	<suppress checks="MultipleStringLiterals" files="Test\.java" />
+	<suppress checks="Javadoc" files="Test\.java" />
+	<suppress checks="JavadocMethod" files="[\\/]business[\\/]Warehouse\.java" />
+	<suppress checks="JavadocMethod" files="[\\/]business[\\/]Product\.java" />
+	<suppress checks="JavadocMethod" files="[\\/]business[\\/]StorageBin\.java" />
+	<suppress checks="JavadocMethod" files="[\\/]business[\\/]AuftragGeschlossen\.java" />
+	<suppress checks="JavadocMethod" files="[\\/]business[\\/]AuftragOffen\.java" />
+	<suppress checks="JavadocMethod" files="[\\/]business[\\/]AuftragsStatus\.java" />
+	<suppress checks="JavadocMethod" files="[\\/]business[\\/]ReparaturAuftrag\.java" />
+</suppressions>
